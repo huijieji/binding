@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'PP Pangram Sans';
+}
+/* 
+H1 {
+	font-family: 'PP Pangram Sans';
+	font-weight: bold;
+	font-size:500px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 15px;
+	
+} */
+
+.header-title h1 {
+	font-family: 'PP Pangram Sans';
+	font-size: 50px;
+	text-transform: uppercase;
+	padding: 15px;
+	font-family: 'PP Pangram Sans';
+	font-weight: bold;
+	font-weight: 900;
+
+}
+
+.aesthetics {
+	color: rgb(229, 12, 12);
+	font-weight: bold;
+	font-size: 1.2em;
+
+}
+
+.in-design {
+	display: block;
+	font-size: 1.3em;
+	color: black;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.designer {
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 1em;
+	padding: 15px;
+	font-weight: bold;
+	padding-left: 60%;
+}
+
+.description {
+	max-width: 500px;
+	padding: 15px;
+}
+
+.articles {
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+	display: block;
+	max-width: 100%;
+
+}
+
+.article-card {
+	border: 1px solid #ddd;
+	padding: 15px;
+	text-align: center;
+	max-width: 700px;
+	display: block;
+}
+
+.article-number {
+    font-size: 1.5em;
+    color: #c91111;
+}
+
+.article-card h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.article-card h3 {
+	font-size: 1em;
+	color: #555;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+button {
+	background-color: #eee;
+	border: none;
+	padding: 5px;
+	cursor: pointer;
+}
+
+
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 0.8em;
+}
