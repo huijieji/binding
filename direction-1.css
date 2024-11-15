@@ -48,6 +48,7 @@ H1 {
 	padding: 15px;
 	font-weight: bold;
 	padding-left: 60%;
+	max-width: 500px;
 }
 
 .description {
