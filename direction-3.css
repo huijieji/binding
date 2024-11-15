@@ -1,0 +1,145 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Libre Caslon Text", serif;
+}
+
+.header-title h1 {
+	font-size: 2.2em;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 30px;
+	color: rgb(255, 255, 255);
+	background: #5c4d7d;
+}
+
+.aesthetics {
+	color: #ffffff;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 85%;
+	padding-top: 2%;
+}
+
+.in-design {
+	display: block;
+	font-size: 1.5em;
+	color: #ffffff;
+	font-style: italic;
+	font-weight: 500;
+	line-height: 95%;
+}
+
+.designer {
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 1em;
+	padding: 15px;
+	font-weight: bold;
+	text-align: center;
+	color: #5c4d7d;
+}
+
+.description {
+	padding: 15px;
+	font-size: 0.9em;
+	line-height: 1.4;
+	background: #f0ebe1;
+	border-left: 5px solid #a18276;
+}
+
+.articles {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	padding: 10px;
+}
+
+.article-card {
+	position: relative;
+	padding: 15px;
+	width: 100%;
+	color: white;
+	border-radius: 10px;
+	text-align: left;
+	transition: transform 0.3s, background-color 0.3s;
+	margin-top: 1%;
+}
+
+.article-card:hover {
+	transform: scale(1.03);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.article-card:nth-child(1) {
+	background-color: #7963a2;
+}
+
+.article-card:nth-child(2) {
+	background-color: #8a7d63;
+}
+
+.article-card:nth-child(3) {
+	background-color: #a18276;
+}
+
+.article-card p {
+	display: none;
+}
+
+.article-number {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #f7c59f;
+}
+
+.article-card h2 {
+	font-size: 1.3em;
+	color: white;
+}
+
+.article-card h3 {
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+
+.navbar {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: #222;
+}
+
+.navbar li {
+	margin: 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 13px;
+	display: block;
+	justify-content: center;
+}
+
+.navbar a:hover {
+	background-color: #444;
+	color: #f7c59f;
+}
+
+footer {
+	background: #222;
+	color: #eee;
+	text-align: center;
+	padding: 20px;
+	font-size: 0.9em;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}

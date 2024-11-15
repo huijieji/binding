@@ -12,14 +12,14 @@
 	text-transform: uppercase;
 	padding: 30px;
 	color: rgb(255, 255, 255);
-	background: #1e3a8a;
+	background: #8305b9;
 
 }
 
 .aesthetics {
 	color: white;
 	font-weight: 700;
-	font-size: 1.6em;
+	font-size: 1.2em;
 	text-align: center;
 	line-height: 85%;
 	padding-top: 2%;
@@ -72,6 +72,10 @@
 	margin-top: 1%;
 }
 
+.article-card:hover {
+	transform: scale(1.03);
+	box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
 .article-card:nth-child(1) { background-color: #2563eb; }
 .article-card:nth-child(2) { background-color: #10b981; }
 .article-card:nth-child(3) { background-color: #f59e0b; }
@@ -93,10 +97,37 @@
 }
 
 p{
-	font-size: 0.8em;
+	font-size: 0.9em;
 	padding-top: 5%;
+	line-height: 1.4;
 
 }
+.navbar {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	background-color: #000000;
+}
+
+.navbar li {
+	margin: 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 13px;
+	display: block;
+	justify-content:center;
+}
+
+.navbar a:hover {
+	background-color: #555;
+	color: #fff;
+}
+
 
 .buttons {
 	display: flex;
