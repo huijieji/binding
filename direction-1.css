@@ -1,4 +1,4 @@
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -14,7 +14,7 @@ H1 {
 	padding: 15px;
 	
 } */
-
+/* 
 .header-title h1 {
 	font-family: 'PP Pangram Sans';
 	font-size: 50px;
@@ -28,7 +28,7 @@ H1 {
 
 .aesthetics {
 	color: rgb(229, 12, 12);
-	font-weight: bold;
+	/* font-weight: bold;
 	font-size: 1.2em;
 	line-height: 70%;
 	padding-top: 2%;
@@ -103,7 +103,7 @@ p{
 
 }
 
-.article-card {
+/* .article-card {
 	border: 1px solid #ddd;
 	padding: 15px;
 	text-align: center;
@@ -117,8 +117,8 @@ p{
 }
 
 .article-number {
-    font-size: 1.5em;
-    color: #c91111;
+font-size: 1.5em;
+	color: #c91111;
 }
 
 .article-card h2 {
@@ -143,13 +143,13 @@ button {
 	border: none;
 	padding: 5px;
 	cursor: pointer;
-}
+} */
 
 
-footer {
+/* footer {
 	background: black;
 	color: white;
 	text-align: center;
 	padding: 10px;
 	font-size: 0.8em;
-}
+} */ 
