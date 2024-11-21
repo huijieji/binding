@@ -120,7 +120,6 @@
 }
 
 .right .text-grop {
-
 	height: calc(100% - 82px);
 	background-color: black;
 	display: flex;
@@ -404,7 +403,7 @@ grid-template-columns: calc(100% - 76px) 76px;
 	left: 0px;
 	transform: translateY(-50%);
 }
-
+}
 .text-scroll-container {
 	position: absolute;
 	top: 0;
