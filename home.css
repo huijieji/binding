@@ -26,6 +26,30 @@
     height: 100vh;
     overflow: hidden;
 }
+
+#number{
+    font-size:22px;
+    color:#ff38ff;
+    font-family: 'Pangram Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#number2{
+    font-size:22px;
+    color:#0087ff;
+    font-family: 'Pangram Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#number3{
+    font-size:22px;
+    color: #ff5c02;
+    font-family: 'Pangram Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
 #name {
     margin-top: -20px;
     font-family: 'Pangram Sans Compressed', sans-serif;
@@ -43,6 +67,11 @@
     height: 100vh;
     scrollbar-width: none; 
     -ms-overflow-style: none; 
+}
+
+span.material-symbols-outlined {
+    font-size: 40px;
+    margin-top: -10px;
 }
 
 .left::-webkit-scrollbar {
@@ -193,11 +222,11 @@
     padding-left: 20px;
     position: relative;
 }
-span{
+/* span{
 padding-top: 5px;
 padding-bottom: 10px;
 
-    }
+    } */
 
 P{
     font: size 10px;
@@ -650,3 +679,37 @@ html {
 }
 
 
+#number{
+    font-size:33px;
+    color:#ff38ff;
+    font-family: 'Pangram Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#number2{
+    font-size:33px;
+    color:#0087ff;
+    font-family: 'Pangram Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#number3{
+    font-size:33px;
+    color: #ff5c02;
+    font-family: 'Pangram Sans', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#name {
+    margin-top: -20px;
+    font-family: 'Pangram Sans Compressed', sans-serif;
+    font-size: 90px;
+    font-weight: 500;
+}
+#firstname {
+    margin-top: -5px;
+    font-family: 'Pangram Sans Compressed', sans-serif;
+    font-size: 85px;
+    font-weight: 500;
+}

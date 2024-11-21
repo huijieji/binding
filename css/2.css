@@ -28,6 +28,12 @@
 	overflow: hidden;
 }
 
+span.material-symbols-outlined {
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+    
 .left {
 	overflow-y: auto;
 	height: 100vh;
