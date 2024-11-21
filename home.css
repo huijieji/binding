@@ -26,7 +26,18 @@
     height: 100vh;
     overflow: hidden;
 }
-
+#name {
+    margin-top: -20px;
+    font-family: 'Pangram Sans Compressed', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+#firstname {
+    margin-top: -5px;
+    font-family: 'Pangram Sans Compressed', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
 .left {
     overflow-y: auto;
     height: 100vh;
@@ -171,17 +182,26 @@
 }
 
 .left .more p {
-    font-size: 16px;
-    padding: 30px 37px;
+    font-size: 20px;
+    padding: 20px 25px;
     font-weight: 400;
 }
 .left .items .item {
     border-top: 1px solid #e0dddd;
     border-bottom: 1px solid #e0dddd;
     padding: 10px 5px;
+    padding-left: 20px;
     position: relative;
 }
+span{
+padding-top: 5px;
+padding-bottom: 10px;
 
+    }
+
+P{
+    font: size 10px;
+}
 .left .items .item::after {
     content: '';
     position: absolute;
@@ -222,13 +242,14 @@
     font-size: 18px;
     text-transform: uppercase;
     padding: 10px 0;
-    border-bottom: 1px solid #e0dddd;
+    /* border-bottom: 2px solid #e0dddd; */
 }
 
 .left .items .item .b {
     font-family: 'Pangram Sans', sans-serif;
     font-size: 16px;
-    padding: 10px 10px;
+        /* /* border-bottom: 2px solid #e0dddd; */
+    /* padding: 10px 10px; */
 }
 
 .left .items .item .btns {
@@ -247,19 +268,27 @@
     border: 1px solid #000;
     text-transform: uppercase;
 }
+.btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
 
+}
 
 
 .left .footer {
-    height: 50px;
+    height: 60px;
     background-color: #000;
     color: #fff;
-    font-size: 12px;
-    padding: 15px 10px;
+    font-size: 15px;
+    padding: 20px;
     display: flex;
     align-items: center;
 }
+.footer{
+    margin-top: 35px;
 
+}
 
 .right .nav-btn {
     height: 62px;
@@ -519,7 +548,7 @@ html {
     .left .footer {
         height: 70px;
         font-size: 18px;
-        padding: 20px 30px;
+        padding: 90px 30px;
         line-height: 1.5;
     }
 

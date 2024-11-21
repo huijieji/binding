@@ -8,7 +8,7 @@
 	font-family: 'Pangram Sans Reclined';
 	src: url('../font/PPPangramSans-CompressedMediumReclined.woff2') format('woff2');
 	font-weight: normal;
-	font-style: normal;
+		font-style: normal;
 }
 
 :root {
@@ -38,12 +38,11 @@
 .left::-webkit-scrollbar {
 	display: none;
 }
-
 .right {
-	position: fixed;
-	right: 0;
-	width: 10%;
-	height: 100vh;
+    position: fixed;
+    right: 0;
+    width: 10%;
+    height: 100vh;
 }
 
 .right .text-grop {
@@ -87,7 +86,7 @@
     height: 69px;
     padding-left: calc(.048* var(--width));
     padding-top: calc(.03467* var(--width));
-    border-bottom: 2px solid #e0dddd;
+    border-bottom: 1px solid #e0dddd;
 }
 
 .left .nav .title {
@@ -111,7 +110,7 @@
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
-    border-left: 2px solid #e0dddd;
+    border-left: 1px solid #e0dddd;
 }
 
 .right .nav-btn img {
@@ -454,6 +453,7 @@ html {
         padding: 60px 40px;
         max-width: 1200px;
         margin: 0 auto;
+        float: left;
     }
 
     .container .item1 .font_1 {
@@ -484,7 +484,7 @@ html {
         position: relative;
     }
 
-    .container .item2::after {
+    /* .container .item2::after {
         content: '';
         position: absolute;
         right: 0;
@@ -492,7 +492,7 @@ html {
         width: 1px;
         height: 100%;
         background-color: #e0dddd;
-    }
+    } */
 
     .container .item2 .title {
         font-size: 96px;

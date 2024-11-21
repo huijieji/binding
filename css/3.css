@@ -1,46 +1,43 @@
 @font-face {
-    font-family: 'Pangram Sans Compressed';
-    src: url('../font/PPPangramSans-CompressedExtrabold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Pangram Sans Compressed';
+	src: url('../font/PPPangramSans-CompressedExtrabold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
-
 @font-face {
-    font-family: 'Pangram Sans Reclined';
-    src: url('../font/PPPangramSans-CompressedMediumReclined.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'Pangram Sans Reclined';
+	src: url('../font/PPPangramSans-CompressedMediumReclined.woff2') format('woff2');
+	font-weight: normal;
+		font-style: normal;
 }
-
 
 :root {
-    --width: 375px;
+	--width: 375px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 
 .main {
-    display: grid;
-    grid-template-columns: 90% 10%;
-    height: 100vh;
-    overflow: hidden;
+	display: grid;
+	grid-template-columns: 90% 10%;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .left {
-    overflow-y: auto;
-    height: 100vh;
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
+	overflow-y: auto;
+	height: 100vh;
+	scrollbar-width: none; 
+	-ms-overflow-style: none; 
 }
 
 .left::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
-
 .right {
     position: fixed;
     right: 0;
@@ -90,7 +87,7 @@
     height: 69px;
     padding-left: calc(.048* var(--width));
     padding-top: calc(.03467* var(--width));
-    border-bottom: 2px solid #e0dddd;
+    border-bottom: 1px solid #e0dddd;
 }
 
 .left .nav .title {
@@ -114,7 +111,7 @@
     padding-top: 20px;
     padding-left: 5px;
     padding-right: 5px;
-    border-left: 2px solid #e0dddd;
+    border-left: 1px solid #e0dddd;
 }
 
 .right .nav-btn img {
@@ -335,6 +332,10 @@ html {
     font-weight: bold;
 }
 
+.nav-overlay .nav-btns .btn a:hover {
+    color: #ff74ce;
+    transition: color 0.3s ease;
+}
 .container .item2 .text_point span::before {
     content: '•';
     position: absolute;
@@ -457,17 +458,16 @@ html {
         font-size: 32px;
     }
 
-    /* Container layout */
     .container {
         max-width: 100%;
         padding: 0;
     }
 
-    /* Item1 styles */
     .container .item1 {
         padding: 60px 40px;
         max-width: 1200px;
         margin: 0 auto;
+        float: left;
     }
 
     .container .item1 .font_1 {
@@ -503,7 +503,7 @@ html {
         position: relative;
     }
 
-    .container .item2::after {
+    /* .container .item2::after {
         content: '';
         position: absolute;
         right: 0;
@@ -511,7 +511,7 @@ html {
         width: 1px;
         height: 100%;
         background-color: #e0dddd;
-    }
+    } */
 
     .container .item2 .title {
         font-size: 96px;
