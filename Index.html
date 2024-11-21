@@ -157,22 +157,5 @@
 				 </div>
 			</div>
 		</div>
-		
-		<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			const container = document.querySelector('.text-scroll-container');
-			const texts = container.querySelectorAll('.text');
-		
-			texts.forEach(text => {
-				const clone = text.cloneNode(true);
-				container.appendChild(clone);
-			});
-			container.addEventListener('animationend', () => {
-				container.style.animation = 'none';
-				container.offsetHeight;
-				container.style.animation = 'scrollText 20s linear infinite';
-			});
-		});
-		</script>
 </body>
 </html>
