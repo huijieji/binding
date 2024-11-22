@@ -50,7 +50,7 @@ a{
     position: fixed;
     right: 0;
     width: 10%;
-    height: 100vh;
+    height: 200vh;
 }
 
 .right .text-grop {
@@ -66,7 +66,7 @@ a{
 
 .text-scroll-container {
     position: absolute;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,7 +241,7 @@ html {
 .container .yinhao+p {
     margin-top: -30px;
     font-family: "Pangram Sans Compressed";
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     text-transform: uppercase;
@@ -270,29 +270,29 @@ html {
 }
 
 .container .item1 .font_1 {
-    font-size: 28px;
+    font-size: 50px;
 }
 
 .container .item1 .font_2 {
-    font-size: 38px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .container .item1 .font_3 {
     font-family: "Pangram Sans Compressed";
-    font-size: 70px;
+    font-size: 90px;
     font-weight: bold;
     font-style: italic;
     background-color: black;
     color: #ff7b00;
     display: inline-block;
     padding: 0 15px 0 0px;
-    margin: 3px 0px 6px;
+    margin: 4px 0px 10px;
 }
 
 .container .item1 .font_4 {
-    font-size: 14px;
-    color: #888;
+    font-size: 17px;
+    color: #070000;
 }
 
 
@@ -312,13 +312,13 @@ html {
 .container .item1 .text {
     padding-top: 20px;
     padding-left: 15px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     padding-bottom: 20px;
 }
 
 .container .item2 .text {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
@@ -435,7 +435,7 @@ html {
 .text-scroll-container {
     position: absolute;
     top: 0;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -545,7 +545,7 @@ html {
     }
 
     .container .yinhao+p {
-        font-size: 32px;
+        font-size: 30px;
         margin-top: -40px;
         max-width: 90%;
     }

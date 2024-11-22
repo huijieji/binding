@@ -51,7 +51,7 @@ a{
     position: fixed;
     right: 0;
     width: 10%;
-    height: 100vh;
+    height: 200vh;
 }
 
 .right .text-grop {
@@ -67,7 +67,7 @@ a{
 
 .text-scroll-container {
     position: absolute;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,7 +241,7 @@ html {
 .container .yinhao+p {
     margin-top: -30px;
     font-family: "Pangram Sans Compressed";
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     text-transform: uppercase;
@@ -260,30 +260,30 @@ html {
 }
 
 .container .item1 .font_1 {
-    font-size: 28px;
+    font-size: 46px;
 }
 
 
 .container .item1 .font_2 {
-    font-size: 38px;
+    font-size: 46px;
     font-weight: bold;
 }
 
 .container .item1 .font_3 {
     font-family: "Pangram Sans Compressed";
-    font-size: 70px;
+    font-size: 100px;
     font-weight: bold;
     font-style: italic;
     background-color: black;
     color: #ff74ce;
     display: inline-block;
-    padding: 0 15px 0 0px;
-    margin: 3px 0px 6px;
+    padding: 0 10px 0 0px;
+    margin: 1px 0px 1px;
 }
 
 .container .item1 .font_4 {
-    font-size: 15px;
-    color: #888;
+    font-size: 17px;
+    color: #070000;
 }
 
 
@@ -423,7 +423,7 @@ html {
 .text-scroll-container {
     position: absolute;
     top: 0;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -461,11 +461,11 @@ html {
     }
 
     .container .item1 {
-        padding: 60px 40px;
-        max-width: 1200px;
+        /* padding: 40px; */
+		padding-left: 30px;
+        /* max-width: 1200px; */
         margin: 0 auto;
-        float: left;
-    }
+        float: left;}
 
     .container .item1 .font_1 {
         font-size: 42px;
@@ -515,7 +515,7 @@ html {
     }
 
     .container .yinhao+p {
-        font-size: 32px;
+        font-size: 30px;
         margin-top: -40px;
         max-width: 90%;
         line-height: 1.3;

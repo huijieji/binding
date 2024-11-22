@@ -55,7 +55,7 @@ a{
     position: fixed;
     right: 0;
     width: 10%;
-    height: 100vh;
+    height: 200vh;
 }
 
 .right .text-grop {
@@ -71,7 +71,7 @@ a{
 
 .text-scroll-container {
     position: absolute;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -245,7 +245,7 @@ html {
 .container .yinhao + p {
     margin-top: -30px;
     font-family: "Pangram Sans Compressed";
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
     text-transform: uppercase;
@@ -429,7 +429,7 @@ html {
 .text-scroll-container {
     position: absolute;
     top: 0;
-    animation: scrollText 20s linear infinite;
+    animation: scrollText 40s linear infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
