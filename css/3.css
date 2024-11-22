@@ -20,9 +20,11 @@
 	padding: 0;
 }
 
-span.material-symbols-outlined{
+span.material-symbols-outlined {
     font-size: 30px;
     margin-top: -10px;
+    text-align: center;
+    position:sticky;
 }
 
 a{
