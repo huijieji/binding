@@ -265,7 +265,7 @@ html {
 }
 
 .container div .emphasize {
-	font-family: "Pangram Sans Compressed";
+	/* font-family: "Pangram Sans Compressed"; */
 	font-style: italic;
 	font-size: 30px;
 	font-weight: bold;
