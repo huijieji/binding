@@ -227,8 +227,8 @@ span.material-symbols-outlined {
 	font-weight: bold;
 	text-transform: uppercase;
 	line-height: 1;
-	letter-spacing: -.02em;
-	margin-left: 15px;
+	letter-spacing: -.035em;
+	margin-left: 10px;
 }
 
 .left .slogan div:nth-child(1) img {

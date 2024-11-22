@@ -237,17 +237,24 @@ html {
 .container .yinhao {
 	font-family: 'Pangram Sans', sans-serif;
 	font-size: 40px;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 .container .yinhao+p {
 	margin-top: -30px;
 	font-family: "Pangram Sans Compressed";
 	font-size: 30px;
-	font-weight: bold;
+	/* font-weight: bold; */
 	line-height: 1.5;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
+
+/* .container .yinhao + p {
+	font-size: 38px;
+	margin-top: -50px;
+	max-width: 90%;
+	line-height: 1.4;
+} */
 
 .container .bottomline {
 	border-bottom: 1px solid #e0dddd;
@@ -303,14 +310,14 @@ html {
 }
 
 .container .item2 .title {
-	font-family: "Pangram Sans Compressed";
+	font-family: 'Pangram Sans Compressed', sans-serif;
+    /* font-size: 80px; */
+    font-weight: 500;
 	font-size: 60px;
-	font-weight: bold;
-	line-height: .8;
+	/* font-weight: bold; */
+	/* line-height: 60px; */
 	padding-bottom: 20px;
-
 }
-
 .container .item1 .text {
 	padding-top: 20px;
 	padding-left: 15px;
