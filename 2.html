@@ -22,7 +22,7 @@
 		<label for="nav-toggle" class="nav-close">×</label>
 		<div class="nav-btns">
 			<div class="btn">
-				<a href="home.html">HOME <span></span>  <span style="color: #ff5c02;">00.</span></a>
+				<a href="index.html">HOME <span></span>  <span style="color: #ff5c02;">00.</span></a>
 			</div>
 			<div class="btn">
 				<a href="1.html">KATE <span>wagner</span> <span style="color: #ff38ff;">01.</span></a>
@@ -156,11 +156,10 @@
 				<div class="footer">
 					Design by huijie ji. 2024  <br>
 					All rights reserved. 
-					<div class="arrow">
-						<a href="#top">
-							<img style="width: 15px;" src="img/t.png" alt="">
+					<!-- <div class="arrow">
+						<a href="#top">Go to top
 						</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="right">
@@ -220,23 +219,6 @@
 			 </div>
 		</div>
 	</div>
-	
-	<script>
-		document.addEventListener('DOMContentLoaded', function() {
-			const container = document.querySelector('.text-scroll-container');
-			const texts = container.querySelectorAll('.text');
-		
-			texts.forEach(text => {
-				const clone = text.cloneNode(true);
-				container.appendChild(clone);
-			});
-			container.addEventListener('animationend', () => {
-				container.style.animation = 'none';
-				container.offsetHeight;
-				container.style.animation = 'scrollText 20s linear infinite';
-			});
-		});
-		</script>
 	</body>
 	
 	</html>

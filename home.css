@@ -68,9 +68,28 @@
     scrollbar-width: none; 
     -ms-overflow-style: none; 
 }
-
+#toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  #toTop:hover {
+    background-color: #0056b3;
+  }
+  
 span.material-symbols-outlined {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: -10px;
 }
 
@@ -704,12 +723,12 @@ html {
 #name {
     margin-top: -20px;
     font-family: 'Pangram Sans Compressed', sans-serif;
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 500;
 }
 #firstname {
     margin-top: -5px;
     font-family: 'Pangram Sans Compressed', sans-serif;
-    font-size: 85px;
+    font-size: 80px;
     font-weight: 500;
 }
