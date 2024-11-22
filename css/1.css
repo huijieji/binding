@@ -33,11 +33,13 @@
 }
 
 span.material-symbols-outlined {
-	font-size: 40px;
-	margin-top: -10px;
+    font-size: 30px;
+    margin-top: -10px;
 }
 
-
+a{
+    border-bottom:1px solid #000000;
+}
 .left {
     overflow-y: auto;
     height: 100vh;
@@ -99,7 +101,7 @@ span.material-symbols-outlined {
     height: 69px;
     padding-left: calc(.048* var(--width));
     padding-top: calc(.03467* var(--width));
-    border-bottom: 2px solid #e0dddd;
+    border-bottom: 1px solid #e0dddd;
 }
 
 .left .nav  .title {
@@ -123,13 +125,13 @@ span.material-symbols-outlined {
     padding-top: 20px;
     padding-left: 5px; 
     padding-right: 5px;
-    border-left: 2px solid #e0dddd;
+    border-left: 1px solid #e0dddd;
 }
 
 .right  .nav-btn img {
     width: 100;
 }
-sap
+
 .right .text-grop {
     height: calc(100% - 82px);
     background-color: black;
@@ -243,7 +245,7 @@ html {
 .container .yinhao + p {
     margin-top: -30px;
     font-family: "Pangram Sans Compressed";
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     line-height: 1.5;
     text-transform: uppercase;
@@ -262,29 +264,30 @@ html {
 }
 
 .container .item1 .font_1{
-    font-size: 28px;
+    font-size: 46px;
 }
 
 .container .item1 .font_2{
-    font-size: 38px;
+    font-size: 47px;
     font-weight: bold;
 }
 
 .container .item1 .font_3 {
     font-family: "Pangram Sans Compressed";
-    font-size: 70px;
+    font-size: 80px;
     font-weight: bold;
     font-style: italic;
     background-color: black;
     color: #17eda1;
     display: inline-block;
-    padding: 0 15px 0 0px;
-    margin: 3px 0px 6px; 
+    padding: 0 6px 0 0px;
+    margin: 4px 0px 6px; 
 }
 
 .container .item1 .font_4 {
-    font-size: 14px;
-    color: #888;
+    font-size: 15px;
+    color: #000000;
+	/* padding-left: 10px; */
 }
 
 .container .item2 {
@@ -315,7 +318,7 @@ html {
 
 .container .item2 .l1 {
     padding-left: 30px;
-    border-left: 1px solid #000;
+    border-left: 2px solid #000;
 }
 .container .item2 .text_point {
     margin-bottom: 30px;
@@ -349,7 +352,7 @@ html {
 
 .footer .arrow {
     position: absolute;
-    right: 30px;
+    right: 60px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -409,6 +412,10 @@ html {
         right:550px;
     }
 
+	.nav-overlay .nav-btns .btn a:hover {
+        color: #ff74ce;
+        transition: color 0.3s ease;
+    }
     .nav-overlay .nav-btns .btn a span[style*="color"] {
         position: absolute;
         left: 0px;
@@ -469,7 +476,7 @@ html {
     }
 
     .container .item2:nth-of-type(4) {
-        width: 45%;
+        /* width: 45%; */
         float: left;
         margin-right: 5%;
     }
@@ -556,7 +563,7 @@ html {
     }
 
     .footer {
-        font-size: 24px;
+        font-size: 20px;
         padding: 30px 40px;
         clear: both;
     }
