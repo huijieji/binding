@@ -603,3 +603,15 @@ html {
 	color: white;
 	}
 }
+body {
+	font-family: 'Helvetica';
+}
+p {
+	font-family: 'Helvetica';
+	font-weight: normal;
+}
+.text_point {
+	font-family: 'Helvetica';
+	font-weight: bold;
+	font-style: italic;
+}

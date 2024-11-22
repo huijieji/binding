@@ -324,7 +324,7 @@ html {
 }
 
 .container .item2 .l1 {
-	padding-left: 30px;
+	padding-left: 20px;
 	border-left: 2px solid #000;
 }
 .container .item2 .text_point {
@@ -628,4 +628,16 @@ html {
 	.container .item2 p {
 		margin-bottom: 25px;
 	}
+}
+body {
+	font-family: 'Helvetica';
+}
+p {
+	font-family: 'Helvetica';
+	font-weight: normal;
+}
+.text_point {
+	font-family: 'Helvetica';
+	font-weight: bold;
+	font-style: italic;
 }

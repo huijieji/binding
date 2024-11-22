@@ -623,4 +623,15 @@ html {
 	border-bottom: 1px solid #e0dddd;
 	padding-bottom: 20px;
 }
-/* shangmian shouji xiamian diannao  */
+body {
+	font-family: 'Helvetica';
+}
+p {
+	font-family: 'Helvetica';
+	font-weight: normal;
+}
+.text_point {
+	font-family: 'Helvetica';
+	font-weight: bold;
+	font-style: italic;
+}
