@@ -372,60 +372,61 @@ html {
 		font-size: 24px; 
 		margin-bottom: 25px;
 	}
-	
-	.right .nav-btn {
-		padding: 20px 15px; 
+
+.right .nav-btn {
+	padding: 20px 15px; 
+}
+
+.nav-overlay .nav-btns {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.nav-overlay .nav-btns .btn {
+	font-size: 118px;
+	text-align: right;
+}
+
+.nav-overlay .nav-btns .btn a {
+	position: relative;
+	padding-right: 60px;
+}
+
+.nav-overlay .nav-btns span:nth-child(1) {
+	font-size: 40px;
+}
+
+.nav-overlay .nav-btns span:nth-child(2) {
+	left: auto;
+	top: 30px;
+	font-size: 24px;
+}
+
+.nav-overlay .nav-btns .btn:nth-child(1) span:nth-child(2) {
+	right: 300px;
 	}
 
-	.nav-overlay .nav-btns {
-		padding-left: 100px;
-		padding-right: 100px;
-	}
+.nav-overlay .nav-btns .btn:nth-child(2) span:nth-child(2) {
+	right: 400px;
+}
 
-	.nav-overlay .nav-btns .btn {
-		font-size: 118px;
-		text-align: right;
-	}
+.nav-overlay .nav-btns .btn:nth-child(3) span:nth-child(2) {
+	right: 510px;
+}
 
-	.nav-overlay .nav-btns .btn a {
-		position: relative;
-		padding-right: 60px;
-	}
+.nav-overlay .nav-btns .btn:nth-child(4) span:nth-child(2) {
+	right:550px;
+}
 
-	.nav-overlay .nav-btns span:nth-child(1) {
-		font-size: 40px;
-	}
+.nav-overlay .nav-btns .btn a:hover {
+	color: #ff74ce;
+	transition: color 0.3s ease;
+}
 
-	.nav-overlay .nav-btns span:nth-child(2) {
-		left: auto;
-		top: 30px;
-		font-size: 24px;
-	}
-
-	.nav-overlay .nav-btns .btn:nth-child(1) span:nth-child(2) {
-		right: 300px;
-	}
-
-	.nav-overlay .nav-btns .btn:nth-child(2) span:nth-child(2) {
-		right: 400px;
-	}
-
-	.nav-overlay .nav-btns .btn:nth-child(3) span:nth-child(2) {
-		right: 510px;
-	}
-
-	.nav-overlay .nav-btns .btn:nth-child(4) span:nth-child(2) {
-        right:550px;
-	}
-
-	.nav-overlay .nav-btns .btn a:hover {
-		color: #ff74ce;
-		transition: color 0.3s ease;
-	}
-	.nav-overlay .nav-btns .btn a span[style*="color"] {
-		position: absolute;
-		left: 0px;
-		transform: translateY(-50%);
+.nav-overlay .nav-btns .btn a span[style*="color"] {
+	position: absolute;
+	left: 0px;
+	transform: translateY(-50%);
 	}
 }
 

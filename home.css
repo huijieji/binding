@@ -26,6 +26,37 @@
 	height: 100vh;
 	overflow: hidden;
 }
+.item .arrow {
+	width: 20px;
+	height: 20px;
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 10px;
+	transition: all 0.3s ease;
+}
+
+.item .arrow {
+	font-family: 'Noto Sans Symbols 2', sans-serif;
+	font-size: 95px;
+	height: 2rem;
+	width: 2rem;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: center; 
+	transform: scale(1.3);
+	border-right: 4px solid rgb(107, 227, 32);
+	border-top: 4px solid rgb(107, 227, 32);
+	opacity: 60%;
+}
+.item:hover .arrow {
+	cursor: pointer;
+	transform: scale(2);
+	transition: all 0.3s;
+	border-color: rgb(0, 136, 255);
+}
 
 #number{
 	font-size:22px;
@@ -141,6 +172,7 @@ span.material-symbols-outlined {
 	100% {
 		transform: translateY(-50%);
 	}
+
 }
 
 @media screen and (min-width: 768px) {
@@ -505,6 +537,10 @@ html {
 	left: auto;
 	top: 30px;
 	font-size: 24px;
+}
+.nav-overlay .nav-btns .btn a:hover {
+	color: #ff74ce;
+	transition: color 0.3s ease;
 }
 
 .nav-overlay .nav-btns .btn:nth-child(1) span:nth-child(2) {
