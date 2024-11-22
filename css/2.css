@@ -321,6 +321,7 @@ html {
 
 .container .item2 .text_point {
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .container .item2 .text_point span {
@@ -534,16 +535,12 @@ html {
     }
 
     .container .item2 .text_point span {
-        font-size: 20px;
+        font-size: 30px;
         padding-left: 30px;
         margin-bottom: 15px;
     }
 
-    .container .item2 img {
-        max-width: 90%;
-        height: auto;
-        margin: 40px 0;
-    }
+
 
     .footer {
         font-size: 20px;
