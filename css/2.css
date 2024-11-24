@@ -373,7 +373,7 @@ html {
 	.main {
 		grid-template-columns: calc(100% - 76px) 76px;
 	}
-	
+
 	span.material-symbols-outlined {
 		font-size: 5vh;
 		margin-top: -10px;
@@ -484,18 +484,18 @@ html {
 }
 
 .container .item1 .font_1 {
-		font-size: 42px;
+		font-size: 80px;
 	padding-bottom: 20px;
 	}
 
 	.container .item1 .font_2 {
-	font-size: 72px;
+	font-size: 80px;
 	font-weight: bold;
 	line-height: 1.1;
 	}
 
 	.container .item1 .font_3 {
-		font-size: 120px;
+		font-size: 150px;
 		padding: 0 30px;
 	}
 
@@ -507,7 +507,7 @@ html {
 	.container .item2 {
 		padding: 60px 0;
 		padding-left: 40px;
-		width: 60%;
+		width: 75%;
 		position: relative;
 	}
 

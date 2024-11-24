@@ -506,15 +506,15 @@ html {
 }
 
 .container .item1 .font_1 {
-	font-size: 42px;
+	font-size: 90px;
 	}
 
 .container .item1 .font_2 {
-	font-size: 72px;
+	font-size: 90px;
 	}
 
 .container .item1 .font_3 {
-	font-size: 120px;
+	font-size: 150px;
 	padding: 0 30px;
 	}
 
@@ -526,7 +526,8 @@ html {
 .container .item1 .text {
 	font-size: 20px;
 	line-height: 1.8;
-	padding: 30px 15px;
+	padding-right: 300px;
+
 	margin-bottom: 30px;
 	}
 
@@ -534,7 +535,7 @@ html {
 .container .item2 {
 	padding: 60px 0;
 	padding-left: 40px;
-	width: 60%;
+	width: 75%;
 	position: relative;
 	}
 
@@ -564,7 +565,7 @@ html {
 	}
 
 .container .yinhao+p {
-	font-size: 30px;
+	font-size: 38px;
 	margin-top: -40px;
 	max-width: 90%;
 	}

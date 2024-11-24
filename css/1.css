@@ -375,7 +375,7 @@ html {
 	.main {
 		grid-template-columns: calc(100% - 76px) 76px;
 	}
-	
+
 	span.material-symbols-outlined {
 		font-size: 5vh;
 		margin-top: -10px;
@@ -496,7 +496,7 @@ html {
 	.container .item2 {
 		padding: 60px 0;
 		padding-left: 40px;
-		width: 60%;
+		width:75%;
 		position: relative;
 	}
 
@@ -526,11 +526,11 @@ html {
 	}
 
 	.container .item1 .font_1 {
-		font-size: 52px;
+		font-size: 80px;
 	}
 
 	.container .item1 .font_2 {
-		font-size: 68px;
+		font-size: 80px;
 	}
 
 	.container .item1 .font_3 {
