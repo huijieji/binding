@@ -21,7 +21,7 @@
 }
 
 span.material-symbols-outlined {
-	font-size: 30px;
+	font-size: 3vh;
 	margin-top: -10px;
 	text-align: center;
 	position:sticky;
@@ -280,11 +280,11 @@ html {
 
 
 .container .item1 .font_1 {
-	font-size: 50px;
+	font-size: 68px;
 }
 
 .container .item1 .font_2 {
-	font-size: 50px;
+	font-size: 60px;
 	font-weight: bold;
 }
 
@@ -297,7 +297,7 @@ html {
 	color: #ff7b00;
 	display: inline-block;
 	padding: 0 15px 0 0px;
-	margin: 4px 0px 10px;
+	margin: 4px 6px 10px;
 }
 
 .container .item1 .font_4 {
@@ -324,6 +324,7 @@ html {
 	font-size: 20px;
 	line-height: 1.5;
 	padding-bottom: 20px;
+	padding-right: 10px;
      /* max-width:ch */
 }
 
@@ -331,6 +332,7 @@ html {
 	font-size: 20px;
 	line-height: 1.5;
 	margin-bottom: 30px;
+	padding-right: 10px;
 }
 
 .container .item2 .l1 {
@@ -386,6 +388,12 @@ html {
 		grid-template-columns: calc(100% - 76px) 76px;
 	}
 
+	span.material-symbols-outlined {
+		font-size: 5vh;
+		margin-top: -10px;
+		text-align: center;
+		position:sticky;
+	}
 .right .text-grop .text {
 	font-size: 24px;
 	margin-bottom: 25px;
@@ -541,6 +549,7 @@ html {
 	line-height: 1.8;
 	margin-bottom: 40px;
 	max-width: 90%;
+	padding-right: 10px;
 	}
 
 .container .item2 .emphasize {

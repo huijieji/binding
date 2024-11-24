@@ -29,7 +29,7 @@
 }
 
 span.material-symbols-outlined {
-	font-size: 30px;
+	font-size: 3vh;
 	margin-top: -10px;
 	text-align: center;
 	position:sticky;
@@ -311,12 +311,14 @@ html {
 	font-size: 20px;
 	line-height: 1.5;
 	padding-bottom: 20px;
+	padding-right: 10px;
 }
 
 .container .item2 .text {
 	font-size: 20px;
 	line-height: 1.5;
 	margin-bottom: 30px;
+	padding-right: 10px;
 }
 
 .container .item2 .l1 {
@@ -371,7 +373,13 @@ html {
 	.main {
 		grid-template-columns: calc(100% - 76px) 76px;
 	}
-
+	
+	span.material-symbols-outlined {
+		font-size: 5vh;
+		margin-top: -10px;
+		text-align: center;
+		position:sticky;
+	}
 	.right .text-grop .text {
 		font-size: 24px;
 		margin-bottom: 25px;
@@ -525,6 +533,7 @@ html {
 		line-height: 1.8;
 		margin-bottom: 40px;
 		max-width: 90%;
+		padding-right: 10px;
 	}
 
 	.container .item2 .text_point {
@@ -634,4 +643,7 @@ p {
 	font-family: 'Helvetica';
 	font-weight: bold;
 	font-style: italic;
+}
+p.text{
+	margin-right:15px;
 }

@@ -128,7 +128,7 @@
   
 
 span.material-symbols-outlined {
-	font-size: 30px;
+	font-size: 3vh;
 	margin-top: -10px;
 	text-align: center;
 	position:sticky;
@@ -376,7 +376,7 @@ P{
 }
 
 .right .nav-btn {
-	height: 62px;
+	/* height: 62px; */
 	padding-top: 20px;
 	padding-left: 5px; 
 	padding-right: 5px;
@@ -505,6 +505,12 @@ html {
 	grid-template-columns: calc(100% - 70px) 70px;
 	}
 
+	span.material-symbols-outlined {
+		font-size: 5vh;
+		margin-top: -10px;
+		text-align: center;
+		position:sticky;
+	}
 	.right .text-grop .text {
 		font-size: 24px; 
 		 margin-bottom: 25px;
