@@ -581,13 +581,14 @@ html {
 
 .left .slogan div:nth-child(5) p {
 	text-align: left;
-	font-size: 33px;
+	font-size: 25px;
 	grid-column: 1;
+	padding-top: 20px;
 }
 
 .left .more p {
 	padding: 30px 60px;
-	font-size: 33px;
+	font-size: 25px;
 	line-height: 1.5;
 	grid-column: 2;
 	margin-top: -200px;
@@ -670,7 +671,7 @@ html {
 }
 
 .left .slogan div span {
-	font-size: 160px;
+	font-size: 165px;
 	margin-left: 30px;
 }
 
